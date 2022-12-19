@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: The Fallen
+Implementation-Version: 1.0
+Specification-Vendor: examplemodsareus
+Specification-Title: examplemod
+Implementation-Timestamp: 2020-08-10T14:43:26-0600
+Specification-Version: 1
+Implementation-Vendor: examplemodsareus
+

@@ -1,0 +1,50 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[32,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+issueTrackerURL="http://my.issue.tracker/" #optional
+
+[[mods]] #mandatory
+
+modId="thefallenmod" #mandatory
+
+version="1.16.1-1.0" #mandatory
+
+displayName="The Fallen Mod" #mandatory
+
+updateJSONURL="http://myurl.me/" #optional
+
+displayURL="http://example.com/" #optional
+
+logoFile="examplemod.png" #optional
+
+credits="Thanks to the effort of the team" #optional
+
+authors="DarkMDance, CJ1075759" #optional
+
+description='''
+A story-driven, MASSIVE, irradiated, cave-world mod. Built by hand, this mod covers three dimensions: , ,
+where humanity have descended into the depths below for survival, but finding only despair.
+You wake in the depths of the Earth and must survive in the radioactive underground and discover out the rise and fall
+of humanity- loaded with stunning and deadly biomes, nightmarish and violent creatures, and a whole lot of busted
+firearms to riddle holes in this hellhole of a cavern mod.'''
+
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.examplemod]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[32,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+# Here's another dependency
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.1]"
+    ordering="NONE"
+    side="BOTH"

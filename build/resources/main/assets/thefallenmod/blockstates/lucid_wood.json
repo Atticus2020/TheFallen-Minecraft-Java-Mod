@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "thefallenmod:block/lucid_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "thefallenmod:block/lucid_wood"
+    },
+    "axis=z": {
+      "model": "thefallenmod:block/lucid_wood",
+      "x": 90
+    }
+  }
+}

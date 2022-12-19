@@ -1,0 +1,47 @@
+[10Aug2020 14:25:39.578] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200625.160719, --fml.mcVersion, 1.16.1, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 32.0.66, --version, MOD_DEV, --assetIndex, 1.16, --assetsDir, C:\Users\Shadow\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[10Aug2020 14:25:39.584] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.0+69+master.79f13f7 starting: java version 1.8.0_241 by Oracle Corporation
+[10Aug2020 14:25:40.090] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[10Aug2020 14:25:43.418] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Shadow\.gradle\caches\forge_gradle\assets, --assetIndex, 1.16, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[10Aug2020 14:26:08.496] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[10Aug2020 14:26:08.507] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[10Aug2020 14:26:09.832] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[10Aug2020 14:26:12.616] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 32.0.66, for MC 1.16.1 with MCP 20200625.160719
+[10Aug2020 14:26:12.616] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v32.0.66 Initialized
+[10Aug2020 14:26:12.964] [Render thread/INFO] [com.darkmdance.thefallenmod.TheFallenMod/]: HELLO from Register Block
+[10Aug2020 14:26:17.472] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[10Aug2020 14:26:17.605] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[10Aug2020 14:26:17.646] [modloading-worker-3/INFO] [com.darkmdance.thefallenmod.TheFallenMod/]: HELLO FROM PREINIT
+[10Aug2020 14:26:17.647] [modloading-worker-3/INFO] [com.darkmdance.thefallenmod.TheFallenMod/]: DIRT BLOCK >> minecraft:dirt
+[10Aug2020 14:26:17.707] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[10Aug2020 14:26:17.710] [modloading-worker-4/INFO] [com.darkmdance.thefallenmod.TheFallenMod/]: Got game settings net.minecraft.client.GameSettings@6e592e47
+[10Aug2020 14:26:19.787] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 32.0.66 Target: 32.0.108
+[10Aug2020 14:26:19.787] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thefallenmod] Starting version check at http://myurl.me/
+[10Aug2020 14:26:19.944] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:899) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:852) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:801) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:773) ~[gson-2.8.0.jar:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:214) ~[?:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:1.8.0_241]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:157) [?:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:385) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[gson-2.8.0.jar:?]
+	... 6 more
+[10Aug2020 14:26:25.337] [modloading-worker-2/INFO] [com.darkmdance.thefallenmod.TheFallenMod/]: Got IMC []
+[10Aug2020 14:26:26.371] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[10Aug2020 14:26:26.372] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[10Aug2020 14:26:26.768] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[10Aug2020 14:26:26.834] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[10Aug2020 14:26:26.834] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[10Aug2020 14:26:26.836] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[10Aug2020 14:26:26.838] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[10Aug2020 14:26:26.839] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[10Aug2020 14:26:26.839] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[10Aug2020 14:26:27.474] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[10Aug2020 14:26:27.475] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[10Aug2020 14:26:27.476] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[10Aug2020 14:26:28.203] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
